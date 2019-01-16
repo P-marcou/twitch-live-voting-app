@@ -1,13 +1,13 @@
-HOST = "irc.twitch.tv"
+HOST = "irc.chat.twitch.tv"
 PORT = 6667
 
 #twitch oauth key
-PASS = "oauth:******************************"
+PASS = "oauth:****"
 
 #username of your bot
-IDENT = "appie_bot"
+IDENT = "mickmrcx_bot"
 
 #the channel you would like the bot to occupy
-CHANNEL = "appie_bot_master"
+CHANNEL = "mickmrcx"
 
 

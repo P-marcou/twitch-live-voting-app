@@ -89,7 +89,7 @@ class SampleApp(tk.Tk):
             return
 
         self.readbuffer = self.readbuffer + chat_data
-        print "Reading successful"
+        print ("Reading successful")
         temp = self.readbuffer.split('\n')
         self.readbuffer = temp.pop() #save the last (possibly incomplete) line for later
         if self.readbuffer == "":
@@ -106,7 +106,7 @@ class SampleApp(tk.Tk):
             user = getUser(line)
             message = getMessage(line)
  
-            print "{} typed: {}".format(user, message)
+            print ("{} typed: {}".format(user, message))
            
             if "!commands" in message:
                 sendMessage(self.s, "'!voteA','!voteB','!voteC'")
